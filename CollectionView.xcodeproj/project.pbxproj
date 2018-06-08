@@ -14,6 +14,8 @@
 		693B3F7020CA0304003921A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693B3F6E20CA0304003921A1 /* LaunchScreen.storyboard */; };
 		693B3F7B20CA0304003921A1 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693B3F7A20CA0304003921A1 /* CollectionViewTests.swift */; };
 		693B3F8620CA0304003921A1 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693B3F8520CA0304003921A1 /* CollectionViewUITests.swift */; };
+		693B3F9520CA034E003921A1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693B3F9320CA034E003921A1 /* CollectionViewCell.swift */; };
+		693B3F9620CA034E003921A1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693B3F9420CA034E003921A1 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		693B3F8120CA0304003921A1 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		693B3F8520CA0304003921A1 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		693B3F8720CA0304003921A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693B3F9320CA034E003921A1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		693B3F9420CA034E003921A1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				693B3F6C20CA0304003921A1 /* Assets.xcassets */,
 				693B3F6E20CA0304003921A1 /* LaunchScreen.storyboard */,
 				693B3F7120CA0304003921A1 /* Info.plist */,
+				693B3F9320CA034E003921A1 /* CollectionViewCell.swift */,
+				693B3F9420CA034E003921A1 /* CollectionViewCell.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				693B3F7020CA0304003921A1 /* LaunchScreen.storyboard in Resources */,
 				693B3F6D20CA0304003921A1 /* Assets.xcassets in Resources */,
+				693B3F9620CA034E003921A1 /* CollectionViewCell.xib in Resources */,
 				693B3F6B20CA0304003921A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				693B3F6820CA0304003921A1 /* ViewController.swift in Sources */,
 				693B3F6620CA0304003921A1 /* AppDelegate.swift in Sources */,
+				693B3F9520CA034E003921A1 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +438,7 @@
 				DEVELOPMENT_TEAM = 8JB8P4DX7G;
 				INFOPLIST_FILE = CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrinhHC.Swift4.UIAlertControllerExample.CollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrinhHC.Swift4.UIAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +453,7 @@
 				DEVELOPMENT_TEAM = 8JB8P4DX7G;
 				INFOPLIST_FILE = CollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrinhHC.Swift4.UIAlertControllerExample.CollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrinhHC.Swift4.UIAlertControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
