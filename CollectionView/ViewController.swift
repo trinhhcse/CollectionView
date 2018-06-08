@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource/*,UICollectionViewDelegateFlowLayout*/ {
 
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
@@ -37,12 +37,6 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         cell.btnCenter.titleLabel?.text = "Viet Nam"
         cell.backgroundColor = UIColor.red
         return cell;
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-//        print(cell.frame.size)
-//        print(collectionView.frame.width/2)
-//        print(collectionView.frame)
     }
 //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 ////        let space = (collectionViewLayout as! UICollectionViewFlowLayout).minimumInteritemSpacing
